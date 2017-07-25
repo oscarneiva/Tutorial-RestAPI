@@ -1,4 +1,4 @@
-const express = require ('express');
+const express = require('express');
 const router = express.Router();
 
 // get a list of ninjas from the db
@@ -8,7 +8,12 @@ router.get('/ninjas', function(req, res){
 
 // add a new ninja to the db
 router.post('/ninjas', function(req, res){
-    res.send({type: 'post'});
+    console.log(req.body);
+    res.send({
+        type: 'post',
+        name: req.body.name,
+        rank: req.body.rank
+    });
 });
 
 // update a ninja in the db
