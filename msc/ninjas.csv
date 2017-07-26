@@ -1,0 +1,41 @@
+{
+	"name" : "Ryu",
+	"rank" : "black belt",
+	"available" : "true",
+	"geometry" : {"type" : "point", "coordinates" : [-80, 25]}
+}
+
+{
+	"name" : "Yoshi",
+	"rank" : "red belt",
+	"available" : "true",
+	"geometry" : {"type" : "point", "coordinates" : [-80, 25]}
+}
+
+{
+	"name" : "Crystal",
+	"rank" : "green belt",
+	"available" : "true",
+	"geometry" : {"type" : "point", "coordinates" : [-80, 25]}
+}
+
+{
+	"name" : "Mario",
+	"rank" : "blue belt",
+	"available" : "true",
+	"geometry" : {"type" : "point", "coordinates" : [-80, 25]}
+}
+
+{
+	"name" : "Hitaki",
+	"rank" : "white belt",
+	"available" : "true",
+	"geometry" : {"type" : "point", "coordinates" : [-80, 25]}
+}
+
+{
+	"name" : "Naruto",
+	"rank" : "pink belt",
+	"available" : "true",
+	"geometry" : {"type" : "point", "coordinates" : [-80, 25]}
+}
